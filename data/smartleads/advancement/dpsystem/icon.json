@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:lead"
+		},
+		"title": "SmartLeads",
+		"description": "§8Made for §c1.21.11\n§8v1.0.0\n\n§7Improves lead behavior: leashed mobs follow more smoothly, jump over obstacles, and break leads far less often, making animal transport simple and reliable.\n\n§8by §cSozoKa",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "sozoka:me",
+	"criteria": {
+		"Install \"SMART LEADS\" datapack": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

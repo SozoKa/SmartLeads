@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:paper"
+		},
+		"title": "1.0.0",
+		"description": "§7Initial release.",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "smartleads:dpsystem/changelog/init",
+	"criteria": {
+		"Install \"SMART LEADS\" datapack": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

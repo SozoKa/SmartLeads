@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:book"
+		},
+		"title": "Changelog >>>",
+		"description": "§7View the changes made to each version.\n\n§8§oBecause I like to know what changed too!",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "smartleads:dpsystem/icon",
+	"criteria": {
+		"Install \"SMART LEADS\" datapack": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
