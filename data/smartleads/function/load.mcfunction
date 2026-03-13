@@ -11,3 +11,6 @@
 tellraw @a[tag=convention.debug] {"text":"§7■§6§l SmartLeads §8§l| §7By §cSozoKa §8- §7running!"}
 
 scoreboard objectives add smartleads dummy
+
+scoreboard objectives add smartleads_settings trigger
+execute unless score .tp smartleads_settings matches 0.. run scoreboard players set .tp smartleads_settings 1
