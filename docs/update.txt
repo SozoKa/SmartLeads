@@ -1,0 +1,13 @@
+1.0.0
+- Initial release
+
+1.1.0
+- Added Settings! /function 'smartleads:settings'
+- Added an uninstall function (available in settings) '/function smartleads:uninstall'
+
+1.1.1
+- Renamed function 'smartleads:settings' to 'smartleads:-settings'
+- Renamed function 'smartleads:uninstall' to 'smartleads:-uninstall'
+- Removed the info advancements
+- Added a menu in the pause menu with infos, links, changelog, ...
+- Changed the settings dialog to adapt to the changes

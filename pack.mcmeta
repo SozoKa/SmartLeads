@@ -1,8 +1,10 @@
 {
+	"id": "smartleads",
 	"pack": {
-		"pack_format": 94,
-		"min_format": 94,
-		"max_format": 999,
-		"description": "§8By §cSozoKa §8for §c1.21.11 §8- §7Improves lead behavior."
+		"pack_format": 80,
+		"supported_formats": [80, 9999],
+		"min_format": 80,
+		"max_format": 9999,
+		"description": "§7Improves lead behavior.\n§8By §cSozoKa"
 	}
 }
