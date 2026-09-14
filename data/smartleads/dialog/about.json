@@ -1,0 +1,135 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "SmartLeads",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "v1.1.1",
+          "bold": true
+        },
+        "\n",
+        {
+          "translate": "sozoka.by",
+          "fallback": "By %s",
+          "with": [
+            {
+              "text": "SozoKa",
+              "color": "red"
+            }
+          ],
+          "color": "gray",
+          "bold": false
+        },
+        "\n\n",
+        {
+          "translate": "sozoka.made_for",
+          "fallback": "Made for %s",
+          "with": [
+            {
+              "text": "1.21.6 - 26.3",
+              "color": "white"
+            }
+          ],
+          "color": "gray",
+          "bold": false
+        },
+        "\n",
+        {
+          "translate": "sozoka.may_work",
+          "fallback": "but may work on newer versions!",
+          "color": "gray",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "smartleads.about.description",
+        "fallback": "Improves lead behavior: leashed mobs follow more smoothly, jump over obstacles, and break leads far less often, making animal transport simple and reliable."
+      },
+      "width": 300
+    }
+  ],
+  "actions": [
+    {
+      "label": "Modrinth",
+      "tooltip": "§7§ohttps://modrinth.com/datapack/smartleads",
+      "action": {
+        "type": "open_url",
+        "url": "https://modrinth.com/datapack/smartleads"
+      }
+    },
+    {
+      "label": "YouTube",
+      "tooltip": "§7§ohttps://youtube.com/@SozoKa",
+      "action": {
+        "type": "open_url",
+        "url": "https://youtube.com/@SozoKa"
+      }
+    },
+    {
+      "label": {
+        "translate": "sozoka.issues",
+        "fallback": "Issues"
+      },
+      "tooltip": "§7§ohttps://github.com/SozoKa/SmartLeads/issues",
+      "action": {
+        "type": "open_url",
+        "url": "https://github.com/SozoKa/SmartLeads/issues"
+      }
+    },
+    {
+      "label": {
+        "translate": "sozoka.changelog",
+        "fallback": "Changelog"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "smartleads:changelog"
+      }
+    },
+    {
+      "label": {
+        "translate": "sozoka.settings",
+        "fallback": "Settings"
+      },
+      "tooltip": {
+        "translate": "sozoka.need_op",
+        "fallback": "Need OP permissions!",
+        "color": "red"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function smartleads:-settings"
+      }
+    },
+    {
+      "label": {
+        "translate": "sozoka.uninstall",
+        "fallback": "Uninstall"
+      },
+      "tooltip": {
+        "translate": "sozoka.need_op",
+        "fallback": "Need OP permissions!",
+        "color": "red"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "smartleads:uninstall"
+      }
+    }
+  ],
+  "exit_action": {
+    "action": {
+      "type": "show_dialog",
+      "dialog": "smithed:data_packs"
+    },
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 200
+  }
+}
